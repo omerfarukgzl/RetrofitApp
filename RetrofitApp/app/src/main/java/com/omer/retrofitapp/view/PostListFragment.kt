@@ -84,7 +84,7 @@ class PostListFragment : Fragment() {
     fun swipeRefresh()
     {
         binding.swipeRefreshLayout.setOnRefreshListener {
-            viewModel.refreshData2()
+            viewModel.refreshData()
             observeLiveData()
             binding.swipeRefreshLayout.isRefreshing=false
         }

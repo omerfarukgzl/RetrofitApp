@@ -36,7 +36,13 @@ class GeneralNotes {
 
      Daha sonra retrofit paketi oluşturulur. Bu paketin adına ise service denir.
      Bu pakette ınterface oluştuurlur.
-      Bu interface içerisinde ise
+      Bu interface içerisinde ise api linki yazılır fakat ikiye ayrılarak yazılır.
+      Nedeni ise biri get biri post olabilir.
+      biri get biri post olduğunda ise başındaki url sabittir gerisi farklıdır
+      Bundan dolayı url sabit kısmı ayrı bir interface içerisinde yazılır.
+        Bu interface içerisinde ise @GET("omerfarukgzl/RetrofitApp/main/api/post.json") gibi bir yapı oluşturulur.
+        Bu yapı ile hangi verinin çekileceği belirtilir.
+
 
 
 
@@ -94,6 +100,7 @@ class GeneralNotes {
         Observable nesnesi ile verileri almak için subscribe() metodu kullanılır.
         subscribe() metodu ile verileri almak için Observer nesnesi oluşturulur.
         Observer nesnesi ile verileri almak için Observer nesnesinin içerisindeki metodlar kullanılır.
+
         Observer nesnesinin içerisindeki metodlar;
         onNext() metodu ile veriler alınır.
         onError() metodu ile hata alınır.
