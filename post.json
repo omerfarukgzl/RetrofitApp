@@ -1,26 +1,26 @@
 [
-  {
-    "postImage": "https://www.ufuktarim.com/imaj/blog/sera-muz-yetistiriciligi.jpg",
-    "userImage": "https://cdn-icons-png.flaticon.com/512/159/159113.png?w=740&t=st=1672598461~exp=1672599061~hmac=7b10e10a22a7bec7276e6d2a429a554de035f3209e595e93a3e5ebc463a4434b",
-    "postStatement": "This is Banana. Banana is Yellow",
-    "userName": "Omer Faruk Guzel"
-  },
-  {
-    "postImage": "https://cdnd-tr.ceptesok.com/product/1000x1000/ce378_Elma_Granny_Kg_.jpg",
-    "userImage": "https://cdn-icons-png.flaticon.com/512/159/159113.png?w=740&t=st=1672598461~exp=1672599061~hmac=7b10e10a22a7bec7276e6d2a429a554de035f3209e595e93a3e5ebc463a4434b",
-    "postStatement": "This is Apple. Apple is Yellow",
-    "userName": "Taha Yasin Guzel"
-  },
-  {
-    "postImage": "https://cdn.yemek.com/mncrop/940/625/uploads/2015/04/portakal.jpg",
-    "userImage": "https://cdn-icons-png.flaticon.com/512/159/159113.png?w=740&t=st=1672598461~exp=1672599061~hmac=7b10e10a22a7bec7276e6d2a429a554de035f3209e595e93a3e5ebc463a4434b",
-    "postStatement": "This is Orange. Orange is Yellow",
-    "userName": "Muhammed Furkan Guzel"
-  },
-  {
-    "postImage": "https://cdn1.ntv.com.tr/gorsel/J3JsXu1BlkKrNcoJg_pk-A.jpg?width=1000&mode=both&scale=both&v=1652861149667",
-    "userImage": "https://cdn-icons-png.flaticon.com/512/159/159113.png?w=740&t=st=1672598461~exp=1672599061~hmac=7b10e10a22a7bec7276e6d2a429a554de035f3209e595e93a3e5ebc463a4434b",
-    "postStatement": "This is Strawbarry. Strawbarry is Yellow",
-    "userName": "Omer Guzel"
-  }
+   {
+      "postImage":"https://www.ufuktarim.com/imaj/blog/sera-muz-yetistiriciligi.jpg",
+      "userImage":"https://cdn-icons-png.flaticon.com/512/159/159113.png?w=740&t=st=1672598461~exp=1672599061~hmac=7b10e10a22a7bec7276e6d2a429a554de035f3209e595e93a3e5ebc463a4434b",
+      "postStatement":"This is Banana. Banana is Yellow",
+      "userName":"Omer Faruk Guzel"
+   },
+   {
+      "postImage":"https://cdnd-tr.ceptesok.com/product/1000x1000/ce378_Elma_Granny_Kg_.jpg",
+      "userImage":"https://cdn-icons-png.flaticon.com/512/159/159113.png?w=740&t=st=1672598461~exp=1672599061~hmac=7b10e10a22a7bec7276e6d2a429a554de035f3209e595e93a3e5ebc463a4434b",
+      "postStatement":"This is Apple. Apple is Yellow",
+      "userName":"Taha Yasin Guzel"
+   },
+   {
+      "postImage":"https://cdn.yemek.com/mncrop/940/625/uploads/2015/04/portakal.jpg",
+      "userImage":"https://cdn-icons-png.flaticon.com/512/159/159113.png?w=740&t=st=1672598461~exp=1672599061~hmac=7b10e10a22a7bec7276e6d2a429a554de035f3209e595e93a3e5ebc463a4434b",
+      "postStatement":"This is Orange. Orange is Yellow",
+      "userName":"Muhammed Furkan Guzel"
+   },
+   {
+      "postImage":"https://cdn1.ntv.com.tr/gorsel/J3JsXu1BlkKrNcoJg_pk-A.jpg?width=1000&mode=both&scale=both&v=1652861149667",
+      "userImage":"https://cdn-icons-png.flaticon.com/512/159/159113.png?w=740&t=st=1672598461~exp=1672599061~hmac=7b10e10a22a7bec7276e6d2a429a554de035f3209e595e93a3e5ebc463a4434b",
+      "postStatement":"This is Strawbarry. Strawbarry is Yellow",
+      "userName":"Omer Guzel"
+   }
 ]
