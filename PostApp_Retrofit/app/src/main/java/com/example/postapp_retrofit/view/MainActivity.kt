@@ -74,10 +74,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-
-
         // Call ile
-
 
         /*
 
@@ -116,12 +113,20 @@ class MainActivity : AppCompatActivity() {
             }
         })*/
 
-
     }
     private fun handleResponse(postList: List<PostModel>){
         postModels = ArrayList(postList)
 
-        adapter = PostRecyclerAdapter(postModels!!)
-        recyclerView.adapter = adapter
+        postModels?.let {
+            adapter = PostRecyclerAdapter(it)
+            recyclerView.adapter = adapter
+        }
+
+    }
+
+    // disposable'ı temizliyoruz
+    override fun onDestroy() {
+        super.onDestroy()
+        compositeDisposable?.clear()
     }
 }
