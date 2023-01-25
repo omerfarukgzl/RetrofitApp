@@ -1,6 +1,7 @@
 package com.omer.retrofitapp.service
 
 import com.omer.retrofitapp.model.PostModel
+import io.reactivex.Observable
 import retrofit2.Call
 import retrofit2.http.GET
 
@@ -12,6 +13,13 @@ interface PostApi {
     // Base url'imiz--> https://raw.githubusercontent.com/
     // endpoint'imiz--> atilsamancioglu/K21-JSONDataSet/master/crypto.json
 //https://raw.githubusercontent.com/omerfarukgzl/RetrofitApp/main/api/post2.json
+
+    // Call ile
+/*    @GET("omerfarukgzl/RetrofitApp/main/post.json")
+    fun getData(): Call<List<PostModel>>*/
+
+    // RxJava ile
     @GET("omerfarukgzl/RetrofitApp/main/post.json")
-    fun getData(): Call<List<PostModel>>
+    fun getData(): Observable<List<PostModel>>
+
 }
